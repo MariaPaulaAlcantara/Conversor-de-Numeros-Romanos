@@ -1,39 +1,56 @@
+/* styles.css */
 body {
-    font-family: Arial, sans-serif;
-    background-color: #f4f4f9;
-    color: #333;
-  }
+  font-family: system-ui, sans-serif;
+  background-color: #f4f4f9;
+  color: #333;
+}
 
-  .container {
-    margin-top: 1em;
-    border: 1px solid #cdcdcd;
-    width: 30rem;
-    padding: 2rem;
-    border-radius: 16px;
-    background: white;
-    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
-  }
+.container {
+  margin-top: 1em;
+  border: 1px solid #cdcdcd;
+  width: 30rem;
+  padding: 2rem;
+  border-radius: 16px;
+  background: white;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
 
-  input[type=text],
-  input[type=number] {
-    transition: border-color 0.3s, box-shadow 0.3s;
-  }
+input[type=text],
+input[type=number] {
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
 
-  input[type=text]:focus,
-  input[type=number]:focus {
-    border-color: #4a90e2;
-    box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
-    outline: none;
-  }
+input[type=text]:focus,
+input[type=number]:focus {
+  border-color: #4a90e2;
+  box-shadow: 0 0 5px rgba(74, 144, 226, 0.5);
+  outline: none;
+}
 
-  h3,
-  p {
-    text-align: center;
-    margin-top: 2rem;
-    font-family: system-ui;
-  }
+.output {
+  font-size: 1.5em;
+  font-weight: bold;
+  color: #333;
+}
 
-  .observacao {
-    font-size: 11px;
-    color: red;
-  }
+h3 {
+  text-align: center;
+  margin-top: 2rem;
+  font-family: system-ui;
+}
+
+.explicaco_conversor {
+  text-align: center;
+}
+
+#entrada_numero_decimal,
+#entrada_numero_romano {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+#converter_decimal,
+#converter_romano {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
